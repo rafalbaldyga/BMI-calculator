@@ -15,16 +15,14 @@ bmi1 = round(bmi, 1)
 if bmi1 < 18.5:
     print("Your bmi is " + f"{bmi1}" + ", you are underweight.")
 
-elif bmi1 < 18.5:
-    print("Your bmi is " + f"{bmi1}" + ", you have a normal weight.")
+
+    
 elif bmi1 < 25:
     print("Your bmi is " + f"{bmi1}" + ", you have a normal weight.")
-elif bmi1 < 25:
-    print("Your bmi is " + f"{bmi1}" + ", you are slightly overweight.")
+
 elif bmi1 < 30:
     print("Your bmi is " + f"{bmi1}" + ", you are slightly overweight.")
-elif bmi1 < 30:
-    print("Your bmi is " + f"{bmi1}" + ", you are obese.")
+
 elif bmi1 < 35:
     print("Your bmi is " + f"{bmi1}" + ", you are obese.")
 
